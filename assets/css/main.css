@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #f0f5ff;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,13 +116,13 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 18pt;
+		font-size: 20pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 14pt;
+				font-size: 15pt;
 			}
 
 		}
@@ -130,7 +130,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -138,7 +138,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -146,20 +146,20 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 10pt;
+				font-size: 13pt;
 			}
 
 		}
 
 	body {
-		background-color: #ffffff;
-		color: #000000;
+		background-color: #f0f5ff;
+		color: #023410;
 	}
 
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
-		font-weight: 300;
+		font-weight: 350;
 		line-height: 1.65;
 	}
 
@@ -176,7 +176,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 450;
 	}
 
 	em, i {
@@ -324,7 +324,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #47D3E5;
+			color: #000000;
 		}
 
 	strong, b {
@@ -6716,7 +6716,7 @@ input, select, textarea {
 		.gallery.style2 .button {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px white;
-			color: #ffffff !important;
+			color: white !important;
 		}
 
 			.gallery.style2 input[type="submit"]:hover,
@@ -6724,7 +6724,7 @@ input, select, textarea {
 			.gallery.style2 input[type="button"]:hover,
 			.gallery.style2 button:hover,
 			.gallery.style2 .button:hover {
-				box-shadow: inset 0 0 0 1px #47D3E5;
+				box-shadow: inset 0 0 0 1px white;
 				color: #47D3E5 !important;
 			}
 
@@ -6743,9 +6743,9 @@ input, select, textarea {
 			.gallery.style2 input[type="button"].primary,
 			.gallery.style2 button.primary,
 			.gallery.style2 .button.primary {
-				background-color: #ffffff;
+				background-color: #f0f5ff;
 				box-shadow: none;
-				color: #000000 !important;
+				color: #47D3E5 !important;
 			}
 
 				.gallery.style2 input[type="submit"].primary:hover,
@@ -6753,7 +6753,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:hover,
 				.gallery.style2 button.primary:hover,
 				.gallery.style2 .button.primary:hover {
-					background-color: #47D3E5;
+					background-color: #f0f5ff;
 				}
 
 				.gallery.style2 input[type="submit"].primary:active,
@@ -6761,7 +6761,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:active,
 				.gallery.style2 button.primary:active,
 				.gallery.style2 .button.primary:active {
-					background-color: #1ebdd1;
+					background-color: #f0f5ff;
 				}
 
 		.gallery.style2 > .forward, .gallery.style2 > .backward {
@@ -7238,12 +7238,12 @@ input, select, textarea {
 
 	.wrapper.style2 {
 		padding: 7rem;
-		background-color: #eeeeee;
+		background-color: #f0f5ff;
 	}
 
 		.wrapper.style2 > .inner {
 			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
-			background-color: #ffffff;
+			background-color: #f0f5ff;
 			border-radius: 0.5rem;
 			margin: 0 auto;
 			max-width: 100%;
@@ -7309,11 +7309,11 @@ input, select, textarea {
 		}
 
 	#wrapper > .wrapper.style2.invert:not(.color1):not(.color2):not(.color3):not(.color4):not(.color5):not(.color6):not(.color7) {
-		background-color: #222222;
+		background-color: #f0f5ff;
 	}
 
 	#wrapper > .wrapper.style2.invert > .inner {
-		background-color: #000000;
+		background-color: #f0f5ff;
 	}
 
 /* Items (transitions) */
@@ -8231,16 +8231,16 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #000000;
-			color: #ffffff;
+			background-color: #f0f5ff;
+			color: #f0f5ff;
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert a {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 				#wrapper > .invert a:hover {
@@ -8248,11 +8248,11 @@ input, select, textarea {
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert blockquote {
@@ -8260,16 +8260,16 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert code {
-				background: rgba(255, 255, 255, 0.125);
-				border-color: white;
+				background: #f0f5ff(255, 255, 255, 0.125);
+				border-color: #f0f5ff;
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: white;
+				border-bottom-color: #f0f5ff;
 			}
 
 			#wrapper > .invert .box {
-				border-color: white;
+				border-color: #f0f5ff;
 			}
 
 			#wrapper > .invert input[type="submit"],
@@ -8277,9 +8277,9 @@ input, select, textarea {
 			#wrapper > .invert input[type="button"],
 			#wrapper > .invert button,
 			#wrapper > .invert .button {
-				background-color: transparent;
+				background-color: #f0f5ff;
 				box-shadow: inset 0 0 0 1px white;
-				color: #ffffff !important;
+				color: #f0f5ff !important;
 			}
 
 				#wrapper > .invert input[type="submit"]:hover,
@@ -8296,7 +8296,7 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"]:active,
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
-					background-color: rgba(71, 211, 229, 0.2);
+					background-color: #f0f5ff(71, 211, 229, 0.2);
 					box-shadow: inset 0 0 0 1px #47D3E5;
 					color: #47D3E5 !important;
 				}
@@ -8306,9 +8306,9 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: #ffffff;
+					background-color: #f0f5ff;
 					box-shadow: none;
-					color: #000000 !important;
+					color: #f0f5ff !important;
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
@@ -8324,11 +8324,11 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: #1ebdd1;
+						background-color: #f0f5ff;
 					}
 
 			#wrapper > .invert label {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert input[type="text"],
@@ -8339,7 +8339,7 @@ input, select, textarea {
 			#wrapper > .invert input[type="url"],
 			#wrapper > .invert select,
 			#wrapper > .invert textarea {
-				border-color: white;
+				border-color: #f0f5ff;
 			}
 
 				#wrapper > .invert input[type="text"]:focus,
@@ -8359,25 +8359,25 @@ input, select, textarea {
 			}
 
 				#wrapper > .invert select option {
-					color: #000000;
-					background: #ffffff;
+					color: #f0f5ff;
+					background: #f0f5ff;
 				}
 
 			#wrapper > .invert input[type="checkbox"] + label,
 			#wrapper > .invert input[type="radio"] + label {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 				#wrapper > .invert input[type="checkbox"] + label:before,
 				#wrapper > .invert input[type="radio"] + label:before {
-					border-color: white;
+					border-color: #f0f5ff;
 				}
 
 			#wrapper > .invert input[type="checkbox"]:checked + label:before,
 			#wrapper > .invert input[type="radio"]:checked + label:before {
-				background-color: #ffffff;
-				border-color: #ffffff;
-				color: #000000;
+				background-color: #f0f5ff;
+				border-color: #f0f5ff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert input[type="checkbox"]:focus + label:before,
@@ -8387,19 +8387,19 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert ::-webkit-input-placeholder {
-				color: #ffffff !important;
+				color: #f0f5ff !important;
 			}
 
 			#wrapper > .invert :-moz-placeholder {
-				color: #ffffff !important;
+				color: #f0f5ff !important;
 			}
 
 			#wrapper > .invert ::-moz-placeholder {
-				color: #ffffff !important;
+				color: #f0f5ff !important;
 			}
 
 			#wrapper > .invert :-ms-input-placeholder {
-				color: #ffffff !important;
+				color: #f0f5ff !important;
 			}
 
 			#wrapper > .invert .icon.style2:before {
@@ -8412,153 +8412,153 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a.icon.style2:active:before {
-				background-color: rgba(71, 211, 229, 0.1);
+				background-color: #f0f5ff(71, 211, 229, 0.1);
 				box-shadow: inset 0 0 0 1px #47D3E5;
 				color: #47D3E5;
 			}
 
 			#wrapper > .invert ul.alt li {
-				border-top-color: white;
+				border-top-color: #f0f5ff;
 			}
 
 			#wrapper > .invert header p {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert table tbody tr {
-				border-color: white;
+				border-color: #f0f5ff;
 			}
 
 				#wrapper > .invert table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.125);
+					background-color: #f0f5ff(255, 255, 255, 0.125);
 				}
 
 				#wrapper > .invert table tbody tr.alt {
-					background-color: rgba(255, 255, 255, 0.125) !important;
+					background-color: #f0f5ff(255, 255, 255, 0.125) !important;
 				}
 
 			#wrapper > .invert table th {
-				color: #ffffff;
+				color: #f0f5ff;
 			}
 
 			#wrapper > .invert table thead {
-				border-bottom-color: white;
+				border-bottom-color: #f0f5ff;
 			}
 
 			#wrapper > .invert table tfoot {
-				border-top-color: white;
+				border-top-color: #f0f5ff;
 			}
 
 			#wrapper > .invert table.alt tbody tr td {
-				border-color: white;
+				border-color: #f0f5ff;
 			}
 
 			#wrapper > .invert table.uniform tbody tr:nth-child(2n + 1) {
-				background-color: transparent;
+				background-color: #f0f5ff;
 			}
 
 			#wrapper > .invert .banner .image {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: #f0f5ff(255, 255, 255, 0.125);
 			}
 
 			#wrapper > .invert .banner.style4 .image {
-				border-color: white;
-				background-color: white;
+				border-color: #f0f5ff;
+				background-color: #f0f5ff;
 				border-width: 1px;
 			}
 
 				#wrapper > .invert .banner.style4 .image:before {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					background-image: #f0f5ff("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+					border-color: #f0f5ff;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
 
 				#wrapper > .invert .banner.style4 .image:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+					background-image: #f0f5ff("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
 					border-color: white;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
 
 			#wrapper > .invert .banner.style4.android .image:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+				background-image: #f0f5ff("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
 			}
 
 			#wrapper > .invert .spotlight .image {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: #f0f5ff(255, 255, 255, 0.125);
 			}
 
 			#wrapper > .invert .spotlight.style3 .image {
-				border-color: white;
-				background-color: white;
+				border-color: #f0f5ff;
+				background-color: #f0f5ff;
 				border-width: 1px;
 			}
 
 				#wrapper > .invert .spotlight.style3 .image:before {
 					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='11' y='12' width='42' height='8' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					border-color: #f0f5ff;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
 
 				#wrapper > .invert .spotlight.style3 .image:after {
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
-					border-color: white;
+					background-image: #f0f5ff("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Ecircle %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Ccircle cx='32' cy='16' r='14' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+					border-color: #f0f5ff;
 					width: calc(100% + 2px);
 					margin-left: -1px;
 				}
 
 			#wrapper > .invert .spotlight.style3.android .image:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
+				background-image: #f0f5ff("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='64px' height='32px' viewBox='0 0 64 32' zoomAndPan='disable'%3E%3Cstyle%3Erect %7Bfill: transparent%3B stroke: white%3B stroke-width: 1px%3B %7D%3C/style%3E%3Crect rx='4' ry='4' x='6' y='4' width='52' height='24' vector-effect='non-scaling-stroke' /%3E%3C/svg%3E");
 			}
 
 			#wrapper > .invert .gallery article .image {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: #f0f5ff(255, 255, 255, 0.125);
 			}
 
 			#wrapper > .invert .items.style1 > * {
-				border-color: white;
+				border-color: #f0f5ff;
 			}
 
 			#wrapper > .invert .items.style2 {
-				border-color: white;
+				border-color: #f0f5ff;
 			}
 
 				#wrapper > .invert .items.style2 > * {
-					border-color: white;
+					border-color: #f0f5ff;
 				}
 
 			#wrapper > .invert .index > * {
-				border-top-color: white;
+				border-top-color: #f0f5ff;
 			}
 
 		#wrapper > .color1 {
-			background-color: #30363d;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper > .color2 {
-			background-color: #db8992;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper > .color3 {
-			background-color: #ab7aad;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper > .color4 {
-			background-color: #897cad;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper > .color5 {
-			background-color: #7794ce;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper > .color6 {
-			background-color: #64abb4;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper > .color7 {
-			background-color: #6ba78c;
+			background-color: #f0f5ff;
 		}
 
 		#wrapper.divided > * {
